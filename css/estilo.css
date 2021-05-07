@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url(fontello.css);
+@import url(menu.css);
+
+@import url(productos.css);
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background:#ff8000;
+	font-family: sans-serif;
+	transition: padding-top 0.5s ease;
+	font-family: 'Playfair Display', serif;
+}
+header{
+	width: 100%;
+	height: 50px;
+	background:#3d3d3d;
+	color: #fff;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 5rem;
+	box-sizing: border-box;
+	position: sticky;
+	top: 0;
+	left: 0;
+	z-index: 100;
+}
+
+.contenedor{
+	max-width: 850px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	background: #fff;	
+}
+
+section{
+	margin: 10px;
+	padding: 20px;
+	max-width: 100%;
+	background: white;
+	border-radius: 4px;
+	box-shadow: 0 3px 0 rgba(0,0,0,0.2);
+}
+#colorsec{
+	margin: 10px;
+	padding: 20px;
+	max-width: 100%;
+	background: #3d3d3d;
+	border-radius: 4px;
+	box-shadow: 0 3px 0 rgba(0,0,0,0.2);
+}
+h2{
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: 400;
+	line-height: 2;
+	color: #2c3e50;
+	text-align: center;
+}
+
+p{
+	margin-bottom: 2rem;
+	line-height: 2;
+	color: #000;
+}
+#colorsec h2{
+	font-size: 25px;
+	text-transform: uppercase;
+	font-weight: 400;
+	line-height: 2;
+	color: #fff;
+	text-align: center;
+}
+#colorsec p{
+	margin-bottom: 2rem;
+	line-height: 2;
+	color: #fff;
+}
+footer{
+	width: 100%;
+	padding: 0.1rem 2rem;
+	text-align: center;
+	background-color:  #3d3d3d; 
+	box-sizing: border-box;
+	margin-top: 2px;
+}
+.copy{
+	font-size: 18px;
+	text-align: center;
+}
+.sociales{
+	width:100%;
+	text-align: center;
+	font-size: 25px;
+}
+.sociales a{
+	color: #000;
+	text-decoration: none;
+}
+

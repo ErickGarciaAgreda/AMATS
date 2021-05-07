@@ -1,0 +1,27 @@
+.bannercont{
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+.banner{
+	width:100%;
+	height:400px;
+	margin: auto;
+
+	background-size: 100% 100%;
+
+	animation-name: banner;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes banner {
+			0%, 30% {background-image: url(img-css/banner1.jpg);
+    		}
+		 	35%, 65% {
+			background-image: url(img-css/banner2.jpg);
+			}
+			70%, 100%{
+			background-image: url(img-css/banner3.jpg);
+			}
+}
